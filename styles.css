@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  color: #ECECEC;
+  background-color: #F78888;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+header.welcome {
+    padding: 110px 0;
+    border: 10px solid #F3D250;
+    outline: 10px solid #90CCF4;   /* #5DA3D5; */
+    border-radius: 8px;
+    margin: 50px auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around;*/
+}
+
+h1 {
+  margin: 50px auto;
+}
+
+h1.presentation {
+  font-size: 40px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+a {
+  background-color: #ECECEC;
+  color: #5DA2D5;
+  /* color: #5DA2D5; */
+  font: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 260px;
+  height: 80px;
+  padding: 25px 0;
+  margin: 50px 0;
+  border: 5px solid #F3D350; /* #90CCF4; */
+  outline: 5px solid #90CCF4;
+  border-radius: 5px;
+}
+
+a:link {
+  color: #5DA2D5;
+  text-decoration: none;
+}
+a:visited {
+  color: #5DA2D5;
+}
+a:hover {
+  font-size: 110%;
+}
+a:active {
+  background-color: #90CCF4;
+}
+
+a.extension {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+a.extension:hover {
+  font-size: 100%;
+  text-decoration: underline;
+}
+article {
+  text-align: center;
+  font-weight: bold;
+  width: 600px;
+  color: #5DA2D5; /* #4F4F4F;  #4996d0;  */
+  background-color: #ECECEC; /* #90CCF4; */
+  border: 7px solid #F3D250;
+  outline: 7px solid #90CCF4;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+div {
+  margin: 20px auto;
+}
+
+.photo {
+  border: 5px solid #5DA2D5;
+  /* outline: 5px solid #90CCF4; */
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+p {
+  padding: 5px 20px;
+  font-weight: normal;
+}
+
+p.name {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+presentation-image {
+  padding: 20px 0 25px 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .header.welcome {
+    width: 600px;
+  }
+
+}
